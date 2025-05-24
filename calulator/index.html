@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <main>
+        <div id="container">
+            <input type="text" placeholder="0" id="input">
+            <div>
+                <button onclick="allclear()" class="ac">AC</button>
+                <button onclick="add('%')" class="op">%</button>
+                <button onclick="blackspace()" class="c">C</button>
+                <button onclick="add('/')" class="op">/</button>
+            </div>
+            <div>
+                <button onclick="add('7')">7</button>
+                <button onclick="add('8')">8</button>
+                <button onclick="add('9')">9</button>
+                <button onclick="add('*')" class="op">x</button>
+            </div>
+            <div>
+                <button onclick="add('4')">4</button>
+                <button onclick="add('5')">5</button>
+                <button onclick="add('6')">6</button>
+                <button onclick="add('-')" class="op">-</button>
+            </div>
+            <div>
+                <button onclick="add('1')">1</button>
+                <button onclick="add('2')">2</button>
+                <button onclick="add('3')">3</button>
+                <button onclick="add('+')" class="op">+</button>
+            </div>
+            <div>
+                <button onclick="add('00')">00</button>
+                <button onclick="add('0')">0</button>
+                <button onclick="add('.')"><b>.</b></button>
+                <button onclick="total()" class="eq">=</button>
+            </div>
+
+        </div>
+        <script src="./script.js"></script>
+    </main>
+</body>
+
+</html>
